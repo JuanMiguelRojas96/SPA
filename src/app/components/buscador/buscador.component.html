@@ -1,4 +1,4 @@
-<h1 class="animated fadeIn fast">Héroes <small>Marvel y DC</small></h1>
+<h1 class="animated fadeIn fast">Buscando: <small>{{termino}}</small></h1>
 <hr>
 
 <div class="card-columns animated fadeIn" >
@@ -12,7 +12,7 @@
 
      <!--<button type="button" class="btn btn-outline-primary btn-block" [routerLink]="['heroe',i]">Ver mas...</button>-->
 
-      <a [routerLink]="['heroe',heroe.nombre]" class="btn btn-outline-primary btn-block">Ver mas...</a>
+      <a [routerLink]="['/heroes/heroe',heroe.nombre]" class="btn btn-outline-primary btn-block">Ver mas...</a>
     </div>
   </div>
 
